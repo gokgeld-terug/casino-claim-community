@@ -25,7 +25,7 @@ body:
     id: provider
     attributes:
       label: Voor welke aanbieder?
-      description: "Voor welke aanbieder?"
+      description: "Vertel over welke aanbieder het gaat"
   - type: textarea
     id: review_tekst
     attributes:
