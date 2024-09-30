@@ -1,0 +1,36 @@
+name: Review over Aanbieder
+description: Gebruik dit sjabloon om je ervaringen met een aanbieder te delen
+title: "[Aanbieder]: naam van je review"
+labels: [inzending,review]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Review indienen
+
+        Bedankt voor je bijdrage! Vul alsjeblieft de volgende gegevens in.
+
+  - type: input
+    id: titel
+    attributes:
+      label: Wat is de titel van de review?
+      description: "Geef een duidelijke titel."
+      placeholder: "Titel"
+    validations:
+      required: true
+
+  - type: input
+    id: provider
+    attributes:
+      label: Voor welke aanbieder?
+      description: "Voor welke aanbieder?"
+  - type: textarea
+    id: review_tekst
+    attributes:
+      label: Wat is je review?
+      description: "Beschrijf je ervaringen"
+      placeholder: "Tekst van de review"
+    validations:
+      required: true
